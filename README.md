@@ -1,6 +1,6 @@
 # E-commerce Product & Customer Analytics
 
-View the Interactive Tableau Dashboard: 
+[![E-commerce Product & Customer Analytics Dashboard](dashboard.png)](dashboard.png)
 
 ## Introduction
 
