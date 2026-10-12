@@ -1,7 +1,5 @@
 # E-commerce Product & Customer Analytics
 
-[![E-commerce Product & Customer Analytics Dashboard](dashboard.png)](dashboard.png)
-
 ## Introduction
 
 I started this project to get more hands-on with business data analysis and work with the kind of user behavior data that appears in real e-commerce products.
@@ -55,6 +53,8 @@ Revenue increased by about **11.3%** from November to December 2020, before drop
 I used a 30-day inactivity rule as a simple Churn Proxy.
 
 This was useful for exploring user activity patterns, but it should not be treated as a true Churn label because users entered the dataset at different times and therefore had different observation windows.
+
+[![E-commerce Product & Customer Analytics Dashboard](dashboard.png)](dashboard.png)
 
 ## Key Findings
 
