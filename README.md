@@ -69,7 +69,7 @@ This was useful for exploring user activity patterns, but it should not be treat
 
 The dataset covers a relatively short period, so some longer-term behavior cannot be observed.
 
-Retention is measured using exact-day D1/D7/D30 Retention, and the inactivity-based Churn measure is only a behavioral proxy.
+The churn analysis uses a 30-day inactivity rule based on the available data, so it is only an approximation and may not reflect how churn would be defined in a real business setting.
 
 ## What I Learned
 
