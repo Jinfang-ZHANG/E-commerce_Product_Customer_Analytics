@@ -28,9 +28,7 @@ The overall View-to-Purchase Conversion Rate was about **3.0%**. The largest Dro
 
 ### Cohort Retention
 
-I calculated D1, D7, and D30 exact-day Retention based on users' first activity date.
-
-For later cohorts without enough follow-up time, Retention was left as `NULL` rather than treated as zero.
+I measured whether users returned 1, 7, and 30 days after their first activity. For users who joined too late in the dataset to be observed for the full period, the unavailable Retention values were left blank instead of counted as zero.
 
 ### Customer Segmentation
 
@@ -50,9 +48,10 @@ Revenue increased by about **11.3%** from November to December 2020, before drop
 
 ### Churn / Inactivity
 
-I used a 30-day inactivity rule as a simple Churn Proxy.
+I used 30 days of inactivity as a simple way to identify potentially churned users.
 
-This was useful for exploring user activity patterns, but it should not be treated as a true Churn label because users entered the dataset at different times and therefore had different observation windows.
+This gives a rough picture of user activity, but it should not be treated as a confirmed churn measure because users joined the dataset at different times and were not observed for the same length of time.
+
 
 [![E-commerce Product & Customer Analytics Dashboard](dashboard.png)](dashboard.png)
 
@@ -73,6 +72,6 @@ The churn analysis uses a 30-day inactivity rule based on the available data, so
 
 ## What I Learned
 
-This project helped me get more comfortable working with nested GA4 event data in BigQuery and applying Product and Customer Analytics concepts such as Funnel Analysis, Cohort Retention, Customer Segmentation, Window Functions, and Revenue Trend analysis.
+This project gave me more hands-on practice using BigQuery to work with event-level e-commerce data.
 
-More importantly, it gave me practice in moving from raw event data to a clearer story about customer behavior and business performance.
+It also helped me get better at turning raw data into a clearer picture of customer behavior and business performance.
